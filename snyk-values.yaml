@@ -1,0 +1,9 @@
+---
+namespace: tap-workload
+targetImagePullSecret: registry-credentials
+snyk:
+  tokenSecret:
+    name: snyk-secret
+metadataStore:
+  caSecret:
+    importFromNamespace: ""
