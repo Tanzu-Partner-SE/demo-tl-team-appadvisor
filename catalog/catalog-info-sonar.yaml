@@ -4,7 +4,7 @@ metadata:
   name: sonarqube-plugin
   description: Sonar Qube plugin
   annotations:
-    'sonarqube.org/project-key': 'python-polling-app/Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889'
+    sonarqube.org/project-key: python-polling-app/Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889
 spec:
   type: service
   lifecycle: experimental
