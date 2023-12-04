@@ -4,7 +4,7 @@ metadata:
   name: sonarqube-plugin
   description: Sonar Qube plugin
   annotations:
-    'sonarqube.org/project-key': '40.64.92.68/sqp_07781e02801676b0868158a2d5783636ceaff545'
+    'sonarqube.org/project-key': '40.64.92.68/sqp_40fc84d66a2043f7ae2dd5f1fc4b85f95c0173d7'
 spec:
   type: service
   lifecycle: experimental
