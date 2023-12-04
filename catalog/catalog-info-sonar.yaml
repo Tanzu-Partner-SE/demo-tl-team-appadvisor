@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sonarqube-plugin
-  description: Sonar Qube plugin
+  description: Backstage is an open-source developer portal that puts the developer experience first
   annotations:
-    sonarqube.org/project-key: python-polling-app/Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889
+    sonarqube.org/project-key: Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889
 spec:
   type: service
   lifecycle: experimental
