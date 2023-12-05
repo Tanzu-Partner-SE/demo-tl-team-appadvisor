@@ -5,9 +5,9 @@ metadata:
   description: An example for plugin integration.
   annotations:
 #    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=tdp-configurator
-#    grafana/dashboard-selector: 'CoreDNS'
+    grafana/dashboard-selector: 'CoreDNS'
     grafana/tag-selector: "coredns"
-#    grafana/alert-label-selector: 'type=http-requests'
+    grafana/alert-label-selector: 'type=http-requests'
 #    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
 #    prometheus.io/alert: all
 #    sonarqube.org/project-key: 'Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889'
