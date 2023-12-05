@@ -10,12 +10,23 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app, app.kubernetes.io/part-of: tdp-configurator'
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=tanzu-java-web-app,app.kubernetes.io/part-of: tdp-configurator,
     sonarqube.org/project-key: 'Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889'
+    github.com/project-slug: RoadieHQ/roadie-backstage-plugins
+    github.com/project-readme-path: plugins/frontend/backstage-plugin-prometheus/README.md
+    backstage.io/view-url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
+    backstage.io/edit-url: https://github.com/RoadieHQ/roadie-backstage-plugins/edit/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-prometheus
+    prometheus.io/alert:  all
+    grafana/dashboard-selector: 'general'
+    grafana/alert-label-selector: 'type=http-requests'
+    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
   links:
     - url: https://docs.konghq.com/gateway/latest/kong-enterprise/dev-portal/
       title: Kong Dev
       icon: dashboard
+    - url: https://www.npmjs.com/package/@roadiehq/backstage-plugin-prometheus
+      title: NPM
 spec:
   type: service
   lifecycle: experimental
