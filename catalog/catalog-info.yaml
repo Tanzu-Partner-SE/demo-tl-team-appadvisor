@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=tanzu-java-web-app,app.kubernetes.io/part-of: tdp-configurator,
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/part-of=tanzu-java-web-app,app.kubernetes.io/part-of=tdp-configurator'
     sonarqube.org/project-key: 'Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889'
     github.com/project-slug: RoadieHQ/roadie-backstage-plugins
     github.com/project-readme-path: plugins/frontend/backstage-plugin-prometheus/README.md
