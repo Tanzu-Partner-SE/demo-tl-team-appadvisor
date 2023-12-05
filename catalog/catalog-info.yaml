@@ -11,6 +11,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
+    sonarqube.org/project-key: 'Eknathreddy09_python-polling-app_AYw1u9WwlBjRwDH2-889'
   links:
     - url: https://docs.konghq.com/gateway/latest/kong-enterprise/dev-portal/
       title: Kong Dev
