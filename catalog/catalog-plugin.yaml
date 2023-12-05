@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: custom-plugin
-  description: An example for plugin integration.
+  description: Custom plugins created by Eknath - Dec 5
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=tdp-configurator
     grafana/dashboard-selector: 'general'
