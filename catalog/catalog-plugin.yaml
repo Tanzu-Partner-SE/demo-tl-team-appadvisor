@@ -16,7 +16,7 @@ metadata:
     backstage.io/view-url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
     backstage.io/edit-url: https://github.com/RoadieHQ/roadie-backstage-plugins/edit/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
     backstage.io/source-location: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-prometheus
-    snyk.io/org-id: d8cfa278-03e1-4f07-bec9-5f61a08eb9ab
+    snyk.io/org-id: cab71fde-2af3-40d1-b796-8a2242860cb9
     snyk.io/project-ids: f107a398-8f39-42cc-941c-898259551377, 2efae30a-32c8-4565-9324-8da3918a59ee, 14a15115-6d4b-4778-b32e-ed9775d28c7a
     snyk.io/targets: Eknathreddy09/python-polling-app,Eknathreddy09/rest-service
   links:
