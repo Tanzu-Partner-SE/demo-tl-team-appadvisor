@@ -16,6 +16,7 @@ metadata:
     backstage.io/view-url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
     backstage.io/edit-url: https://github.com/RoadieHQ/roadie-backstage-plugins/edit/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
     backstage.io/source-location: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-prometheus
+    snyk.io/org-id: d8cfa278-03e1-4f07-bec9-5f61a08eb9ab
   links:
     - url: https://docs.konghq.com/gateway/latest/kong-enterprise/dev-portal/
       title: Kong Dev
