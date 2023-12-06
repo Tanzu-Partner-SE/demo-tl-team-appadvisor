@@ -5,7 +5,7 @@ metadata:
   description: Custom plugins created by Eknath - Dec 5
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=tdp-configurator
-    grafana/dashboard-selector: "tags @> 'tapgui' && tags @> 'coredns' && tags @> 'prometheus-mixin'"
+    grafana/dashboard-selector: "tags @> 'tapgui' || tags @> 'coredns' || tags @> 'prometheus-mixin'"
 #    grafana/tag-selector: "coredns"
     grafana/alert-label-selector: 'type=http-requests'
     prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
