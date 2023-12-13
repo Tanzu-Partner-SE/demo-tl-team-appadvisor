@@ -16,6 +16,7 @@ metadata:
     backstage.io/view-url: https://github.com/RoadieHQ/roadie-backstage-plugins/blob/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
     backstage.io/edit-url: https://github.com/RoadieHQ/roadie-backstage-plugins/edit/main/plugins/frontend/backstage-plugin-prometheus/catalog-info.yaml
     backstage.io/source-location: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-prometheus
+    jenkins.io/job-full-name: 'maven_test'
     snyk.io/org-id: b88d7734-dfe7-496d-aa74-b07157516ffe
 #    snyk.io/project-ids: a17370e4-3d55-42e2-8aa1-d30faaf2725c,17e814c2-ddc8-47f1-af4e-92c30852622f
 #    snyk.io/targets: Eknathreddy09/python-polling-app
